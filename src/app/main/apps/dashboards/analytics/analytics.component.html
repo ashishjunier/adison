@@ -69,13 +69,15 @@
                                             <div class="header" fxLayout="row" fxLayoutAlign="center center"
                                                  [ngClass]="mysurveys.category + '-bg'">
 
-                                                <div class="category" fxFlex>
+                                                <!-- <div class="category" fxFlex>
                                                     <b>Create : </b>{{mysurveys.updated}}
-                                                </div>
+                                                </div> -->
+                                               <!--  <div class="status">Active</div> -->
                     
                                                 <div class="length" fxLayout="row" fxLayoutAlign="center center">
                                                     <!-- <mat-icon class="length-icon s-20">access_time</mat-icon> -->
-                                                    <div class="min"><b>Update : </b>{{mysurveys.updated}}</div>
+                                                    <!-- <div class="min"><b>Update : </b>{{mysurveys.updated}}</div> -->
+                                                    <div class="h1">{{mysurveys.title}}</div>
                                                 </div>
 
                                                 
@@ -84,13 +86,16 @@
                     
                                             <div class="content-1">
 
-                                                <div class="h1">{{mysurveys.title}}</div>
+                                                 <div class="status success-text">Active</div>
                                                 <div class="category-1">
                                                     <!-- {{mysurveys.category}} -->
                                                     {{mysurveys.id}}
-                                                </div>                                                
+                                                </div>     
+                                                <div class="created text-muted">Created : {{mysurveys.updated}}</div>
+                                                <div class="updated text-muted">Updated : {{mysurveys.updated}}</div>
+
                     
-                                                <!-- <div class="length" fxLayout="row" fxLayoutAlign="center center">
+                                               <!--  <div class="length" fxLayout="row" fxLayoutAlign="center center">
                                                     <mat-icon class="length-icon s-20">access_time</mat-icon>
                                                     <div class="min">{{mysurveys.length}} min</div>
                                                 </div> -->
@@ -99,7 +104,7 @@
                                             <div class="update">
                                                 <div class="update-1">
                                                         <!-- <div class="created">Created : {{mysurveys.updated}}</div> -->
-                                                        <div class="status">Active</div>
+                                                        
                                                 </div>
                                                 <div class="update-2">
                                                         <!-- <div class="updated">Updated : {{mysurveys.updated}}</div> -->
@@ -252,3 +257,5 @@
     </div>    
     
 </div>
+
+
