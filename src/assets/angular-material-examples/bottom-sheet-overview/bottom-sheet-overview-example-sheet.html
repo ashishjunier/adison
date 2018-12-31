@@ -1,5 +1,5 @@
-<mat-nav-list>
-  <a href="https://keep.google.com/" mat-list-item (click)="openLink($event)">
+ <mat-nav-list>
+  <!-- <a href="https://keep.google.com/" mat-list-item (click)="openLink($event)">
     <span mat-line>Google Keep</span>
     <span mat-line>Add to a note</span>
   </a>
@@ -17,5 +17,74 @@
   <a href="https://hangouts.google.com/" mat-list-item (click)="openLink($event)">
     <span mat-line>Google Hangouts</span>
     <span mat-line>Show to your coworkers</span>
-  </a>
+  </a> -->
+  <div fxLayout="row" mat-list-item>
+    <div class="mat-div1" fxFlex="100" fxFlex.gt-xs="33" fxFlex.gt-sm="100" fxFlex.gt-lg="50">
+      <a href="#" class="text-dark">
+        <div class="text-center icon-custom">
+          <span class="fa fa-qrcode fa-2x text-blue"></span>
+          <h5 class="mt-0">Scan to Pay</h5>
+        </div>
+      </a>  
+    </div>
+    <div class="mat-div1" fxFlex="100" fxFlex.gt-xs="33" fxFlex.gt-sm="100" fxFlex.gt-lg="50">
+      <a href="#" class="text-dark">
+        <div class="text-center icon-custom">
+          <span class="fa fa-check-square fa-2x text-blue"></span>
+          <h5 class="mt-0">Apply Now</h5>
+        </div>
+      </a>   
+    </div>
+    <div class="mat-div1" fxFlex="100" fxFlex.gt-xs="33" fxFlex.gt-sm="100" fxFlex.gt-lg="50">
+      <a href="#" class="text-dark">
+        <div class="text-center icon-custom">
+          <span class="fa fa-bookmark fa-2x text-blue"></span>
+          <h5 class="mt-0">Favourites</h5>
+        </div>
+      </a>  
+    </div>
+    <div class="mat-div1" fxFlex="100" fxFlex.gt-xs="33" fxFlex.gt-sm="100" fxFlex.gt-lg="50">
+      <a href="#" class="text-dark">
+        <div class="text-center icon-custom">
+          <span class="fa fa-dollar fa-2x text-blue"></span>
+          <h5 class="mt-0">Insta Banking</h5>
+        </div>
+      </a>  
+    </div>
+  </div>  
+  <div fxLayout="row" mat-list-item>
+    <div class="mat-div1" fxFlex="100" fxFlex.gt-xs="33" fxFlex.gt-sm="100" fxFlex.gt-lg="50">
+      <a href="#" class="text-dark">
+        <div class="text-center icon-custom">
+          <span class="fa fa-gift fa-2x text-blue"></span>
+          <h5 class="mt-0">Offers</h5>
+        </div>
+      </a>  
+    </div>
+    <div class="mat-div1" fxFlex="100" fxFlex.gt-xs="33" fxFlex.gt-sm="100" fxFlex.gt-lg="50">
+      <a href="#" class="text-dark">
+        <div class="text-center icon-custom">
+          <span class="fa fa-calculator fa-2x text-blue"></span>
+          <h5 class="mt-0">Calculators</h5>
+        </div>
+      </a>  
+    </div>
+    <div class="mat-div1" fxFlex="100" fxFlex.gt-xs="33" fxFlex.gt-sm="100" fxFlex.gt-lg="50">
+      <a href="#" class="text-dark">
+        <div class="text-center icon-custom">
+          <span class="fa fa-qrcode fa-2x text-blue"></span>
+          <h5 class="mt-0">Scan to Pay</h5>
+        </div>
+      </a>  
+    </div>
+    <div class="mat-div1" fxFlex="100" fxFlex.gt-xs="33" fxFlex.gt-sm="100" fxFlex.gt-lg="50">
+      <a href="#" class="text-dark">
+        <div class="text-center icon-custom">
+          <span class="fa fa-check-square fa-2x text-blue"></span>
+          <h5 class="mt-0">Apply Now</h5>
+        </div>
+      </a>  
+    </div>
+  </div>   
+
 </mat-nav-list>

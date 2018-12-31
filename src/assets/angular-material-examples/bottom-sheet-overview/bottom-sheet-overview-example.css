@@ -47,6 +47,7 @@
         max-width: 800px;
     }
 
+
 @media screen and (max-width: 767px){
     .open{
         min-width: 50px!important;
